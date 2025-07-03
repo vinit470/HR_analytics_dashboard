@@ -1,73 +1,99 @@
-
 # HR Analytics Dashboard 📊
 
 ## Overview
-This project is an interactive HR Analytics Dashboard designed to provide deep insights into employee attrition across different segments of the workforce. It serves as a decision-support tool for HR professionals and leadership teams by uncovering trends and patterns in employee turnover.
+This project is an interactive **HR Analytics Dashboard** designed to analyze and visualize employee attrition trends within an organization of 1,417 employees. It provides key insights that help HR professionals and business leaders identify problem areas, monitor workforce dynamics, and implement data-driven retention strategies.
 
 ---
 
-## 🎯 Objectives
-
-- Analyze and visualize attrition patterns across various dimensions such as age, gender, department, job role, salary slab, education field, and job satisfaction.
-- Identify key problem areas that contribute to high attrition rates.
-- Assist HR teams in forming strategies to improve employee retention.
-
----
-
-## 📌 Key Insights Displayed
-
-### 🔹 Overview Metrics:
-- **Total Employees:** 719  
-- **Total Attrition Cases:** 158  
-- **Attrition Rate:** 21.97%  
-- **Average Age:** 33 years  
-- **Average Salary:** $3.2K  
-- **Average Years at Company:** 4.7 years  
-
-### 🔹 Attrition Breakdown:
-- **By Department:** Human Resources, Research & Development, Sales  
-- **By Gender:** Males show higher attrition (99) compared to females (59).  
-- **By Age Group:** Majority of attrition lies within the 26–35 age range.  
-- **By Job Role:** Highest attrition observed among Laboratory Technicians and Research Scientists.  
-- **By Education Field:** Life Sciences field accounts for the largest share of attrition (27%).  
-- **By Salary Slab:** Majority of employees who left fall in the lower salary slab bracket.  
-- **By Job Satisfaction:** Employees with lower satisfaction levels (ratings 1 and 2) are more likely to leave.
+## 🌟 Objectives
+- Visualize overall attrition and break it down across age, gender, salary, education, and job roles.
+- Identify which segments have the highest attrition risk.
+- Support strategic HR decision-making with actionable insights.
 
 ---
 
-## 📈 Visuals Included
+## 📈 Key Metrics
+| Metric                  | Value        |
+|-------------------------|--------------|
+| Total Employees         | 1,417        |
+| Employees Left (Attrition) | 229      |
+| Attrition Rate          | 16.16%       |
+| Average Age             | 37 years     |
+| Average Salary          | $6.5K/month  |
+| Average Tenure (Years)  | 7.0 years    |
 
-- **Donut Chart** – Attrition by Education Field  
-- **Bar Charts** – Attrition by Age, Job Role  
-- **Pie Chart** – Attrition by Salary Slab  
-- **Stacked Chart** – Attrition by Gender  
-- **Matrix Table** – Job Satisfaction by Job Role  
-- **Line Chart** – Attrition over years at company
+---
+
+## 🔄 Visual Insights
+
+### ▶️ Attrition by Age Group
+- Highest attrition in **26–35 age group**
+- Followed by **18–25** and **36–45**
+
+### ▶️ Attrition by Gender
+- **Male:** 145
+- **Female:** 84
+
+### ▶️ Attrition by Education Field
+- **Life Sciences:** 38%
+- **Medical:** 25%
+- Indicates that science-based roles are more prone to turnover.
+
+### ▶️ Attrition by Job Role
+- **Laboratory Technicians:** 60
+- **Sales Executives:** 55
+- **Research Scientists:** 44
+- **Sales Representatives:** 33
+
+### ▶️ Attrition by Salary Slab
+- **69%** of attrition is from the **lowest salary bracket**
+- Suggests compensation-related dissatisfaction.
+
+### ▶️ Job Satisfaction by Role
+- Satisfaction scores from 1 (low) to 4 (high)
+- Many **Research Scientists** and **Sales Executives** show low satisfaction scores, correlating with high attrition.
+
+### ▶️ Attrition by Year at Company
+- Peak attrition during **early years (1–2 years)** of tenure.
+- Indicates issues in onboarding or early engagement.
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-
-- **Power BI** *(or Tableau / Excel if used — edit accordingly)*  
-- Data transformation using built-in Power Query Editor  
-- Visual storytelling and interactive elements for dynamic analysis
-
----
-
-## 📎 Preview
-
-![HR Analytics Dashboard](./dashboard-image.png)  
-*Upload the image from your export file here*
+- **Power BI** for dashboard creation
+- **Power Query Editor** for data transformation
+- **DAX** for custom metrics and calculations
+- Interactive visuals: bar charts, pie charts, line graphs, and matrix tables
 
 ---
 
-## 🚀 Outcomes
-
-- Helped in identifying target employee groups at high risk of attrition.
-- Offered data-driven insights to guide HR policy revisions and retention programs.
-- Showcased ability to build data-driven dashboards for real-world business scenarios.
+## 🚀 Business Impact
+- Enables HR and management to **pinpoint attrition drivers**.
+- Helps target **retention strategies** to vulnerable employee groups.
+- Demonstrates the power of visual analytics in solving real business problems.
 
 ---
 
 ## 📂 File Structure
+/HR-Analytics-Dashboard
+│
+├── dashboard.pbix # Power BI dashboard file
+├── hr_attrition_dataset.csv # Source data used
+├── dashboard-screenshot.jpg # Dashboard image
+└── README.md # Project documentation
+
+
+---
+
+## 📖 Preview
+![Dashboard Preview](./dashboard-screenshot.jpg)
+
+---
+
+## ✅ How to Use
+1. Download the `.pbix` file and open it in Power BI Desktop.
+2. Use slicers (Department, Gender, etc.) to filter views interactively.
+3. Analyze the visualizations to gain insights into employee attrition.
+
+---
 
